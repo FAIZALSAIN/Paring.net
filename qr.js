@@ -74,7 +74,7 @@ router.get("/", async (req, res) => {
                 maxRetries: 5,
             });
 
-            KnightBot.ev.on("connection.update", async (update) => {
+            mehdiBot.ev.on("connection.update", async (update) => {
                 const { connection, lastDisconnect, isNewLogin, isOnline, qr } =
                     update;
 

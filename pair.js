@@ -121,11 +121,11 @@ const fakeVCardQuoted = {
   },
   message: {
     contactMessage: {
-      displayName: "© 𝐅𝐊𝐱𝐆𝐇𝐎𝐒𝐓-𝐌𝐃_⁸⁷³_",
-      vcard: `FK-HACKER:MD
-VERSION:3.0
-FN:© FKxGHOST-MD
-ORG:FKxGHOST-MD;
+      displayName: "© 𝐌𝐄𝐇𝐃𝐈-𝐌𝐃_",
+      vcard: `MEHDI-HACKER:MD
+VERSION:01.0
+FN:© 𝐌𝐄𝐇𝐃𝐈-𝐌𝐃
+ORG:𝐌𝐄𝐇𝐃𝐈-𝐌𝐃;
 TEL;type=CELL;type=VOICE;waid=13135550002:+13135550002
 END:VCARD`
     }
@@ -135,33 +135,33 @@ END:VCARD`
 // ---- Caption (alive.js style bot details) ----
 const caption = `
 *╭ׂ┄─̇─̣┄─̇─̣┄─̇─̣┄─̇─̣┄─̇─̣─̇─̣─᛭*
-*│ ╌─̇─̣⊰ 𝐅𝐊𝐱𝐆𝐇𝐎𝐒𝐓-𝐌𝐃 ⊱┈─̇─̣╌*
+*│ ╌─̇─̣⊰ 𝐌𝐄𝐇𝐃𝐈-𝐌𝐃 ⊱┈─̇─̣╌*
 *│─̇─̣┄┄┄┄┄┄┄┄┄┄┄┄┄─̇─̣*
-*│❀ 👑 𝐎𝐰𝐧𝐞𝐫:* FK HACKER Official
+*│❀ 👑 𝐎𝐰𝐧𝐞𝐫:* MEHDI KING Official
 *│❀ 🤖 𝐁𝐚𝐢𝐥𝐞𝐲𝐬:* Multi Device
 *│❀ 💻 𝐓𝐲𝐩𝐞:* NodeJs
 *│❀ 🚀 𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦:* Render
 *│❀ ⚙️ 𝐌𝐨𝐝𝐞:* Public
 *│❀ 🔣 𝐏𝐫𝐞𝐟𝐢𝐱:* [ . ]
-*│❀ 🏷️ 𝐕𝐞𝐫𝐬𝐢𝐨𝐧:* 8.0.0
+*│❀ 🏷️ 𝐕𝐞𝐫𝐬𝐢𝐨𝐧:* 01.0.0
 *╰┄─̣┄─̇─̣┄─̇─̣┄─̇─̣┄─̇─̣─̇─̣─᛭*
 
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ FK HACKER 🤍
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ MEHDI KING 🤍
 `;
 
 // ---- Send IMAGE + caption, quoted with fake vCard ----
 await sock.sendMessage(
   jid,
   {
-    image: { url: "https://files.catbox.moe/8c4lpm.jpg" },
+    image: { url: "https://files.catbox.moe/du6w3u.jpg" },
     caption,
     contextInfo: {
       mentionedJid: [jid],
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: "120363422320301173@newsletter",
-        newsletterName: "𝐅𝐊𝐱𝐆𝐇𝐎𝐒𝐓-𝐌𝐃",
+        newsletterJid: "120363422385140154@newsletter",
+        newsletterName: "𝐌𝐄𝐇𝐃𝐈-𝐌𝐃",
         serverMessageId: 143
       }
     }
